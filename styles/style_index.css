@@ -4,7 +4,7 @@
 body {
   
     font-family: Arial;
-    background-image: url(resource/img/fondo1.jpg);
+    background-image: url(../resource/img/fondo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,75 +125,10 @@ body {
       transform: scale(0.95);
     }
     
-    /*--------------DISEÑO DE DASHBOARD-----------------*/
-  
     
-    .dashboard{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: monserrat;
-        background-image: url(resource/img/fondo_dahs.jpg);
-    }
 
-    /*---------------BARRA DEL MENU---------------------*/
 
-    .conteiner_menu{
-        display: flex;
-        top: 0;
-        left: 0;
-        height: 100dvh;
-        width: clamp(250px, 50vw, 280px);
-        background: #00000079;
-        padding: absolute;
-        left: 0;
-       
-      
-    }
 
-    nav li{
+
+
     
-        height: 100%;
-        width: 100%;
-        list-style: none;
-        position:relative;
-        display: inline-flex;
-        line-height: 100px;
-        flex-direction: column;
-        text-transform: uppercase;
-        font-size: 20px;
-        padding: 12px;
-        transition: all 300ms ease;
-      
-    }
-
-    nav ul{
-      padding: 0;
-      
-      
-    }
-
-    nav li a{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-    }
-
-    nav li a svg{
-      padding: 25px;
-      width: 30px;
-      height: 50px;
-    
-    }
-
-    nav li a:hover{
-      
-        transform: scale(1);
-        border-radius: 36px 36px 36px 36px;
-        background: #000000bd;
-        box-shadow: 0px 10px 10px 0px rgba(252, 223, 223, 0.5);
-
-    }
